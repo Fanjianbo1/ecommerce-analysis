@@ -1,2 +1,19 @@
-# ecommerce-analysis
-电商用户行为数据分析项目
+# 电商用户行为数据分析
+
+## 📌 项目简介
+基于淘宝用户行为数据集（UserBehavior.csv），使用 Python 对用户行为进行统计分析，计算点击、收藏、加购、购买的数量分布，并进一步分析浏览→购买转化率。
+
+## 📊 分析结果
+- 用户行为类型分布柱状图（见下图）
+- 浏览→购买转化率：2.34%
+
+## 🛠️ 运行方法
+1. 克隆本仓库
+2. 安装依赖：`运行“pip install pandas matplotlib”安装 pandas 和 matplotlib 库。`
+3. 将数据集 `UserBehavior.csv` 放入项目根目录（数据较大，需自行下载）
+4. 运行 `analysis.py`
+
+## 📁 文件说明
+- `analysis.py`：主分析脚本
+- `requirements.txt`：依赖库列表（可选）
+- `images/`：存放结果图片
