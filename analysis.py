@@ -15,3 +15,7 @@ plt.title('用户行为类型分布')
 plt.xlabel('行为类型')
 plt.ylabel('次数')
 plt.show()
+# 漏斗分析
+pv = df[df['behavior_type'] == 'pv']['user_id'].count()
+buy = df[df['behavior_type'] == 'buy']['user_id'].count()
+print(f'浏览→购买转化率：{buy/pv:.2%}')
